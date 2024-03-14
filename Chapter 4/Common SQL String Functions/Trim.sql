@@ -1,4 +1,4 @@
-SELECT TRIM(
+SELECT ProductCode, TRIM(
     'M'
     FROM ProductCode
   ) AS TrimmedProductCode

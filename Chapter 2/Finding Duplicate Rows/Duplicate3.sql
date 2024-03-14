@@ -1,9 +1,6 @@
 SELECT FirstName,
   LastName,
   Address,
-  City,
-  State,
-  Zipcode,
   COUNT(1)
 FROM Customer
 GROUP BY FirstName,
